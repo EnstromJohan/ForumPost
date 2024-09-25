@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\johan\\source\\repos\\Methods\\",
+  "WorkspaceRootPath": "C:\\Users\\johan\\source\\repos\\Forum\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Methods.csproj|c:\\users\\johan\\source\\repos\\methods\\userinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Methods.csproj|solutionrelative:userinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Forum.csproj|c:\\users\\johan\\source\\repos\\forum\\userinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Forum.csproj|solutionrelative:userinteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Methods.csproj|c:\\users\\johan\\source\\repos\\methods\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Methods.csproj|solutionrelative:post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Forum.csproj|c:\\users\\johan\\source\\repos\\forum\\menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Forum.csproj|solutionrelative:menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Methods.csproj|c:\\users\\johan\\source\\repos\\methods\\menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Methods.csproj|solutionrelative:menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Forum.csproj|c:\\users\\johan\\source\\repos\\forum\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Forum.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Methods.csproj|c:\\users\\johan\\source\\repos\\methods\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Methods.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Forum.csproj|c:\\users\\johan\\source\\repos\\forum\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Forum.csproj|solutionrelative:post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Forum.csproj|c:\\users\\johan\\source\\repos\\forum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4416AE79-0870-4BEB-85FC-17D644D1E91D}|Forum.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Forum\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\johan\\source\\repos\\Forum\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-09-25T11:51:40.37Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -40,50 +57,48 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UserInteraction.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Methods\\UserInteraction.cs",
+              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Forum\\UserInteraction.cs",
               "RelativeDocumentMoniker": "UserInteraction.cs",
-              "ToolTip": "C:\\Users\\johan\\source\\repos\\Methods\\UserInteraction.cs",
+              "ToolTip": "C:\\Users\\johan\\source\\repos\\Forum\\UserInteraction.cs",
               "RelativeToolTip": "UserInteraction.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAADwv1IAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAGcAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T21:10:12.268Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Post.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Methods\\Post.cs",
+              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Forum\\Post.cs",
               "RelativeDocumentMoniker": "Post.cs",
-              "ToolTip": "C:\\Users\\johan\\source\\repos\\Methods\\Post.cs",
+              "ToolTip": "C:\\Users\\johan\\source\\repos\\Forum\\Post.cs",
               "RelativeToolTip": "Post.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T19:58:10.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T19:58:10.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Methods\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Forum\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\johan\\source\\repos\\Methods\\Program.cs",
+              "ToolTip": "C:\\Users\\johan\\source\\repos\\Forum\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T23:20:20.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-16T23:20:20.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MenuHandler.cs",
-              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Methods\\MenuHandler.cs",
+              "DocumentMoniker": "C:\\Users\\johan\\source\\repos\\Forum\\MenuHandler.cs",
               "RelativeDocumentMoniker": "MenuHandler.cs",
-              "ToolTip": "C:\\Users\\johan\\source\\repos\\Methods\\MenuHandler.cs",
+              "ToolTip": "C:\\Users\\johan\\source\\repos\\Forum\\MenuHandler.cs",
               "RelativeToolTip": "MenuHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAA1wCUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T10:15:52.881Z",
               "EditorCaption": ""

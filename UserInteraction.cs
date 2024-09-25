@@ -6,38 +6,57 @@
         public (string title, string description) GetPostDetails()
         {
             string title = "";
-            while (string.IsNullOrWhiteSpace(title))
-            {
-                Console.WriteLine("Enter the title: ");
-                title = Console.ReadLine();
+            string description = "";
 
-                if (string.IsNullOrWhiteSpace(title))
+            try
+            {
+
+                while (string.IsNullOrWhiteSpace(title))
                 {
-                    Console.WriteLine("Title cannot be empty. Please try again.");
+                    Console.WriteLine("Enter the title: ");
+                    title = Console.ReadLine();
+
+                    if (string.IsNullOrWhiteSpace(title))
+                    {
+                        Console.WriteLine("Title cannot be empty. Please try again.");
+                    }
+                }
+
+                while (string.IsNullOrWhiteSpace(description))
+                {
+
+                    Console.WriteLine("Enter the description");
+                    description = Console.ReadLine();
+
+                    if (string.IsNullOrWhiteSpace(description))
+                    {
+                        Console.WriteLine("Description cannot be empty. Please try again.");
+                    }
                 }
             }
 
-            string description = "";
-            while (string.IsNullOrWhiteSpace(description))
+            catch (Exception ex)
             {
-
-                Console.WriteLine("Enter the description");
-                description = Console.ReadLine();
-
-                if (string.IsNullOrWhiteSpace(description))
-                {
-                    Console.WriteLine("Description cannot be empty. Please try again.");
-                }
+                Console.WriteLine($"An error occurred while getting post details: {ex.Message}");
             }
             return (title, description);
         }
 
         public void DisplayPostList(List<Post> posts)
         {
-            Console.WriteLine("=== Posts ===");
-            for (int i = 0; i < posts.Count; i++)
+            try
             {
-                Console.WriteLine($"{i}. {posts[i].GetTitle()}");
+
+
+                Console.WriteLine("=== Posts ===");
+                for (int i = 0; i < posts.Count; i++)
+                {
+                    Console.WriteLine($"{i}. {posts[i].GetTitle()}");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error displaying the post list: {ex.Message}");
             }
         }
 
@@ -48,16 +67,25 @@
 
             while (index < 0 || index >= posts.Count)
             {
-                string input = Console.ReadLine();
-                if (int.TryParse(input, out index) && index >= 0 && index < posts.Count)
+                try
                 {
-                    return index;
+                    string input = Console.ReadLine();
+                    if (int.TryParse(input, out index) && index >= 0 && index < posts.Count)
+                    {
+                        return index;
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Invalid index. Please try again.");
+                    }
                 }
 
-                else
+                catch (Exception ex)
                 {
-                    Console.WriteLine("Invalid index. Please try again.");
+                    Console.WriteLine($"Unexpected error: {ex.Message}");
                 }
+
             }
 
             return index;
@@ -65,25 +93,37 @@
 
         public bool AskForVote()
         {
-            Console.WriteLine("Do you like this post? (Y/N)");
-            string input = Console.ReadLine()?.ToLower();
-            if (input == "y")
+            while (true)
             {
-                return true;
-            }
+                try
+                {
 
-            else if (input == "n")
-            {
-                return false;
-            }
+                    Console.WriteLine("Do you like this post? (Y/N)");
+                    string input = Console.ReadLine()?.ToLower();
+                    if (input == "y")
+                    {
+                        return true;
+                    }
 
-            else
-            {
-                Console.WriteLine("Invalid inout. Please enter Y or N");
-                // handle recursive call to ensure valid input
-                return AskForVote();
+                    else if (input == "n")
+                    {
+                        return false;
+                    }
+
+                    else
+                    {
+                        Console.WriteLine("Invalid inout. Please enter Y or N");
+                        // handle recursive call to ensure valid input
+                        return AskForVote();
+                    }
+                }
+
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Unexpected error: {ex.Message}");
+                }
+
             }
         }
-
     }
 }
